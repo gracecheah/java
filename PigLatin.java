@@ -34,9 +34,7 @@ public class PigLatin {
           isVowel = true;
         }
       }
-      chars.add('a');
-      chars.add('y');
-      result = getStringRepresentation(chars);
+      result = getStringRepresentation(chars) + "ay";
     }
     return result;
   }
